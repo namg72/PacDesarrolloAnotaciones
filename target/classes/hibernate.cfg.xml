@@ -14,8 +14,9 @@
         <property name="connection.password">12345678</property>
         <property name="hibernate.show_sql">true</property>
 
-
-
+        <mapping class="entities.Alumno"/>
+        <mapping class="entities.Modulo"/>
+        <mapping class="entities.Profesor"/>
 
 
     </session-factory>
