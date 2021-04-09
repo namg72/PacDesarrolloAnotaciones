@@ -53,8 +53,8 @@ public class Profesor {
     public String toString() {
         return
                 "id=" + id + "\n"+
-                        ", nombre='" + nombre + "\n"+
-                        ", sexo='" + sexo;
+                        ", nombre='" + this.nombre + "\n"+
+                        ", sexo='" + this.sexo;
 
     }
 }
